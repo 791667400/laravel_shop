@@ -1,6 +1,6 @@
 @extends('layouts.app')
-@section('title', 'Ê×Ò³')
+@section('title', 'é¦–é¡µ')
 
 @section('content')
-  <h1>ÕâÀïÊÇÊ×Ò³</h1>
+  <h1>è¿™é‡Œæ˜¯é¦–é¡µ</h1>
 @stop
