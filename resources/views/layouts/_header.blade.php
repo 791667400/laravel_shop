@@ -15,8 +15,8 @@
             <ul class="nav navbar-nav">
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#">µÇÂ¼</a></li>
-                <li><a href="#">×¢²á</a></li>
+                <li><a href="#">ç™»å½•</a></li>
+                <li><a href="#">æ³¨å†Œ</a></li>
             </ul>
         </div>
     </div>
