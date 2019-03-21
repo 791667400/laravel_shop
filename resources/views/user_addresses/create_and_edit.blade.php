@@ -1,3 +1,5 @@
+@extends('layouts.app')
+@section('title', '新增收货地址')
 @section('content')
     <div class="row">
         <div class="col-lg-10 col-lg-offset-1">
