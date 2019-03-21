@@ -27,6 +27,7 @@ Route::group(['middleware' => 'auth'], function() {
         Route::get('/test', function() {
             return 'Your email is verified';
         });
+        Route::get('user_addresses', 'UserAddressesController@index')->name('user_addresses.index');
     });
     // 结束
     Route::get('/email_verification/verify', 'EmailVerificationController@verify')->name('email_verification.verify');
