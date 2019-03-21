@@ -3,13 +3,11 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
 use Exception;
 use App\Models\User;
-use Cache;
-
+use Illuminate\Support\Facades\Cache;
 use App\Notifications\EmailVerificationNotification;
-use Mail;
+
 
 class EmailVerificationController extends Controller
 {
