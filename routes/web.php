@@ -29,5 +29,8 @@ Route::group(['middleware' => 'auth'], function() {
         });
     });
     // 结束
+    Route::get('/email_verification/verify', 'EmailVerificationController@verify')->name('email_verification.verify');
+    Route::get('/email_verification/send', 'EmailVerificationController@send')->name('email_verification.send');
+
 });
 //Route::get('/home', 'HomeController@index')->name('home');
