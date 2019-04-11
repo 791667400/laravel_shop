@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class UserAddress extends Model
 {
+    
     protected $fillable = [
         'province',
         'city',
@@ -27,4 +28,5 @@ class UserAddress extends Model
     {
         return "{$this->province}{$this->city}{$this->district}{$this->address}";
     }
+
 }

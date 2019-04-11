@@ -1,7 +1,7 @@
 <?php
 
 return [
-    ' faker_locale' => 'zh_CN',
+    //' faker_locale' => 'zh_CN',
     /*
     |--------------------------------------------------------------------------
     | Application Name
@@ -79,7 +79,7 @@ return [
     */
 
     'locale' => 'zh-CN',
-
+    //copy 第三方的zh-CN目录到resource/lang
     /*
     |--------------------------------------------------------------------------
     | Application Fallback Locale
